@@ -1,4 +1,5 @@
 import "./App.css";
+import CreateAccount from "./components/createAccount/CreateAccount";
 import Hero from "./components/heroSection/Hero";
 import MathSection from "./components/mathSection/MathSection";
 import MobileSection from "./components/mobileSection/MobileSection";
@@ -13,6 +14,7 @@ function App() {
       <MobileSection />
       <Section3 />
       <MathSection />
+      <CreateAccount />
     </div>
   );
 }

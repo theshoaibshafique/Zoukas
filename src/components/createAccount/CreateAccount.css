@@ -1,0 +1,101 @@
+.create-account {
+  padding: 0px 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.bg-img {
+  position: absolute;
+  z-index: -10;
+}
+
+.account-logo {
+  margin-top: 30px;
+}
+
+.corner-text {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  left: 130px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: var(--primary-color-2);
+  transform: rotateZ(-45deg);
+}
+
+.acount-input-details {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+.acount-input-details form {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-title {
+  color: var(--primary-color-1);
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.input-detail {
+  color: var(--primary-color-1);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.acount-input-details form label {
+  color: var(--primary-color-1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.acount-input-details form input {
+  color: var(--primary-color-1);
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.acc-submit-btn {
+  padding: 15px 40px;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: var(--primary-color-2);
+  color: #fff;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.acc-btn {
+  display: flex;
+}
+.acc-btn button {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  background: #fff;
+  color: var(--primary-color-1);
+  border: 1px solid var(--primary-color-2-light);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.089);
+  cursor: pointer;
+}
+
+.acc-btn button:hover {
+  background: var(--primary-color-2);
+  color: #fff;
+}
+.acc-btn button img {
+  margin-right: 10px;
+}
