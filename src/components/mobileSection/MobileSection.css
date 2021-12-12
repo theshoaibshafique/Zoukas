@@ -1,0 +1,25 @@
+.mobile-section {
+  display: flex;
+  align-items: center;
+  padding: 0px 150px;
+  margin-bottom: 50px;
+}
+.mobile-sec-img {
+  flex: 1.5;
+}
+.mobile-sec-img-2 {
+  flex: 1;
+  justify-content: flex-end;
+}
+.mobile-sec-text {
+  color: var(--primary-color-1);
+  flex: 1;
+}
+
+.mobile-sec-text span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.mobile-sec-text p {
+  font-size: 22px;
+}
