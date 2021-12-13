@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <div className="hero-title-container">
         <div className="hero-title">
           <span className="grad-text">Zouks</span>

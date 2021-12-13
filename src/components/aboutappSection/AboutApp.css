@@ -1,0 +1,40 @@
+.about-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 150px;
+  margin-bottom: 100px;
+}
+
+.about-app-banner {
+  margin-bottom: 40px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.feature-image {
+  margin-bottom: 20px;
+}
+.feature-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--primary-color-1);
+  margin-bottom: 20px;
+}
+.feature-detail {
+  font-size: 16px;
+  color: var(--primary-color-1);
+  margin-bottom: 20px;
+}
+
+.about-app-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--primary-color-1);
+  margin-bottom: 60px;
+}

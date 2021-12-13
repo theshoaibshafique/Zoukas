@@ -3,6 +3,9 @@
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
 }
 .bg-img {
   position: absolute;
@@ -25,10 +28,15 @@
   transform: rotateZ(-45deg);
 }
 
+.account-details {
+  display: flex;
+
+  margin-top: 30px;
+  padding: 0px 0px 0px 0px;
+}
+
 .acount-input-details {
-  position: absolute;
-  top: 150px;
-  left: 300px;
+  margin-left: 100px;
 }
 
 .acount-input-details form {
@@ -98,4 +106,39 @@
 }
 .acc-btn button img {
   margin-right: 10px;
+}
+
+.account-info {
+  text-align: center;
+  padding-left: 150px;
+}
+
+.account-info-text-1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color-1);
+  margin-bottom: 40px;
+}
+.account-info-text-2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.account-info-text-3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.account-info-text-4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin-left: 20px;
 }

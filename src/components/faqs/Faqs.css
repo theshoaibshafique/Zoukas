@@ -1,0 +1,40 @@
+.faqs {
+  padding: 0px 150px;
+}
+
+.faq {
+  border: 1px solid var(--primary-color-2);
+  border-radius: 20px;
+  padding: 20px 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.faq:hover {
+  background: rgb(243, 243, 243);
+}
+.hide-answer {
+  display: none;
+}
+
+.question-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.arrow-up {
+  transition: transform 0.5s;
+  transform: rotateZ(180deg);
+}
+
+.arrow-down {
+  transition: transform 0.5s;
+  transform: rotateZ(0deg);
+}
+
+.show-answer {
+  margin-top: 50px;
+  transition: display 1s;
+  display: flex;
+}
