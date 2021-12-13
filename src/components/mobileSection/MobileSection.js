@@ -6,7 +6,7 @@ const MobileSection = () => {
     <>
       <div className="mobile-section">
         <div className="mobile-sec-img">
-          <img src="./images/mobile-1.svg" />
+          <img src="./images/mobile-1.svg" alt="" />
         </div>
         <div className="mobile-sec-text">
           <span className="grad-text">Everyone</span> <span>is a Pro at</span>{" "}
@@ -24,7 +24,7 @@ const MobileSection = () => {
           <p>Zouks matches Pros with Clients</p>
         </div>
         <div className="mobile-sec-img-2">
-          <img src="./images/mobile-2.svg" />
+          <img src="./images/mobile-2.svg" alt="" />
         </div>
       </div>
     </>
