@@ -29,6 +29,9 @@
 }
 
 .value-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   border: none;
   padding: 20px 60px;
 }
