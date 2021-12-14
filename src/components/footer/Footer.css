@@ -1,0 +1,100 @@
+.footer {
+  padding: 0px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+}
+
+.social-icons {
+  display: flex;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #555555;
+}
+.social-icons a span {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 0px 24px -2px rgb(0, 0, 0, 0.15);
+  border-radius: 99px;
+}
+
+.footer-app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+}
+
+.footer-text {
+  color: var(--primary-color-2);
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+}
+.footer-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9997a6;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.footer-input input {
+  border: none;
+  padding: 10px;
+}
+
+.footer-input span {
+  display: flex;
+  align-items: center;
+  background: var(--primary-color-2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer-input span:hover {
+  cursor: pointer;
+}
+
+.footer-text-2 {
+  color: #9997a6;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  background: var(--primary-color-2);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-bottom span {
+  font-size: 12px;
+}
+
+.footer-bottom span a {
+  color: #fff;
+  text-decoration: underline;
+}
