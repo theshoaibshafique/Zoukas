@@ -58,17 +58,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>© copyrights zouks</p>
-        <span>
-          Developed by{" "}
-          <a
-            href="https://theshoaib.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            Shoaib
-          </a>
-        </span>
+      
       </div>
     </div>
   );
