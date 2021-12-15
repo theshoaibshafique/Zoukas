@@ -6,11 +6,14 @@ const CreateAccount = () => {
       <div className="create-account">
         <img src="./images/accountbg.svg" className="bg-img" alt="" />
         <div className="account-logo-container">
-          <img src="./images/logo.svg" alt="logo" className="account-logo" />
+          <p className="corner-text">
+            3 For Free <br /> Connections
+          </p>
+          <div className="account-logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
         </div>
-        <p className="corner-text">
-          3 For Free <br /> Connections
-        </p>
+
         <div className="account-details">
           <div className="acount-input-details">
             <form action="">

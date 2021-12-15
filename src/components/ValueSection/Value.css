@@ -58,3 +58,46 @@
 .hide-detail {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .values {
+    padding: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .value-banner {
+    margin-bottom: 20px;
+  }
+  .value-banner img {
+    width: 100%;
+    contain: cover;
+  }
+  .values-title {
+    margin-top: 20px;
+    color: var(--primary-color-1);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .value-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 20px 10px;
+  }
+  .value-title img {
+    width: 20px;
+  }
+  .value-title span {
+    font-size: 8px;
+  }
+  .values-detail-container {
+    padding: 20px 20px;
+    text-align: justify;
+  }
+  .show-detail {
+    font-size: 11px;
+  }
+}

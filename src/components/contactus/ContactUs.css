@@ -86,3 +86,44 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-us {
+    margin: 0px 20px;
+    margin-bottom: 50px;
+  }
+  .contact-us-title {
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .contact-us-subtitle {
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .contact-us-form {
+    padding: 0px 0px;
+  }
+  .form-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
+  .form-right textarea {
+    height: 100px;
+  }
+}

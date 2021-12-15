@@ -5,9 +5,7 @@ const Section3 = () => {
     <div className="section-3">
       <div className="section-3-title">
         <img src="./images/section3-1.svg" alt="" />
-        <p>
-          Why let private businesses TAX your <br /> hard-earned MONEY?{" "}
-        </p>
+        <p>Why let private businesses TAX your hard-earned MONEY? </p>
       </div>
       <div className="section3-detail">
         <img src="./images/section3-3.svg" alt="" />

@@ -11,16 +11,19 @@
   position: absolute;
   z-index: -10;
 }
-
+.account-logo-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
 .account-logo {
-  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 50%;
 }
 
 .corner-text {
-  position: absolute;
-  z-index: 10;
-  top: 20px;
-  left: 130px;
   text-align: center;
   font-size: 45px;
   font-weight: bold;
@@ -138,7 +141,29 @@
   margin-bottom: 20px;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
 .social-icons a {
   text-decoration: none;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 1420px) {
+  .corner-text {
+    display: none;
+  }
+  .account-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .create-account {
+    display: none;
+  }
 }

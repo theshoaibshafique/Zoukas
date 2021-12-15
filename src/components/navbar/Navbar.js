@@ -30,28 +30,43 @@ const Navbar = (props) => {
           }}
         >
           <Toolbar>
-            <div className="navbar">
-              <div className="logo-links-container">
-                <div className="logo">
-                  <img src="./images/logo.svg" alt="Zoukas-logo" />
+            <div className="navbar-container">
+              <div className="navbar">
+                <div className="logo-links-container">
+                  <div className="logo">
+                    <img src="./images/logo.svg" alt="Zoukas-logo" />
+                  </div>
+                  <div className="desktop-navbar-links">
+                    <ul>
+                      <li>
+                        <a href="#home">Home</a>
+                      </li>
+                      <li>
+                        <a href="#contact"> Contact Us</a>
+                      </li>
+                      <li>
+                        <a href="#features">App Features</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="desktop-navbar-links">
-                  <ul>
-                    <li>
-                      <a href="#home">Home</a>
-                    </li>
-                    <li>
-                      <a href="#contact"> Contact Us</a>
-                    </li>
-                    <li>
-                      <a href="#features">App Features</a>
-                    </li>
-                  </ul>
+                <div className="navbar-btns">
+                  <button className="login-btn">Login</button>
+                  <button className="signup-btn">Signup</button>
                 </div>
               </div>
-              <div className="navbar-btns">
-                <button className="login-btn">Login</button>
-                <button className="signup-btn">Signup</button>
+              <div className="mobile-navbar-links">
+                <ul>
+                  <li>
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#contact"> Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#features">App Features</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </Toolbar>

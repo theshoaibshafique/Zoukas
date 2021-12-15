@@ -1,6 +1,7 @@
 .mobile-section {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0px 150px;
   margin-bottom: 50px;
 }
@@ -22,4 +23,36 @@
 }
 .mobile-sec-text p {
   font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-section {
+    padding: 0px 50px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .mobile-sec-img {
+    flex: 1;
+  }
+  .mobile-sec-img img {
+    width: 260px;
+  }
+  .mobile-sec-img-2 {
+    flex: 1;
+  }
+  .mobile-sec-img-2 img {
+    width: 260px;
+  }
+  .mobile-sec-text {
+    text-align: center;
+  }
+  .mobile-sec-text .grad-text {
+    border-radius: 5px;
+  }
+  .mobile-sec-text span {
+    font-size: 20px;
+  }
+  .mobile-sec-text p {
+    font-size: 12px;
+  }
 }

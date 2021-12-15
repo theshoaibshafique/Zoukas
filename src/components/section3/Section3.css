@@ -24,3 +24,22 @@
   flex-wrap: wrap;
   gap: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+  .section-3 {
+    padding: 0px 20px;
+    margin-bottom: 50px;
+  }
+  .section-3-title img {
+    width: 76px;
+  }
+  .section-3-title p {
+    color: var(--primary-color-1);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .section3-detail img {
+    width: 100%;
+    contain: cover;
+  }
+}

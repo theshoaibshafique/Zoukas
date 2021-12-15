@@ -8,8 +8,8 @@ const MathSection = () => {
         <img src="./images/math-banner.svg" alt="" />
       </div>
       <p className="math-text">
-        Your savings with Zouks would be huge, let's assume a <br /> Pro charges
-        $35/hr and works for 4 hours
+        Your savings with Zouks would be huge, let's assume a Pro charges $35/hr
+        and works for 4 hours
       </p>
       <p className="do-math">Let's do the math!</p>
       <div className="math-image">
