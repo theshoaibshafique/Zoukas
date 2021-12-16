@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./AboutApp.css";
 
 const AboutApp = () => {
@@ -24,7 +25,7 @@ const AboutApp = () => {
   ];
 
   return (
-    <div className="about-app">
+    <div className="about-app" id="features">
       <div className="about-app-banner">
         <img src="./images/about-app-banner.svg" alt="" />
       </div>
