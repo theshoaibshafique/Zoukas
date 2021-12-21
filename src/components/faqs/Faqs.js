@@ -22,8 +22,8 @@ const Faqs = () => {
   ];
   return (
     <div className="faqs">
-      {faqs.map((faq) => (
-        <Faq faq={faq} />
+      {faqs.map((faq, i) => (
+        <Faq key={i} faq={faq} />
       ))}
     </div>
   );

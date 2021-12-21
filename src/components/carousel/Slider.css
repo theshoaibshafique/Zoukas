@@ -1,0 +1,10 @@
+.slider-img {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .slider-img img {
+    width: 100%;
+    contain: cover;
+  }
+}

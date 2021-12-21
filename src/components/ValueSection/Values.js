@@ -76,6 +76,7 @@ const Values = () => {
         <div className="values-title-container">
           {values.map((value) => (
             <div
+              key={value.id}
               className={"value-title " + (value.active ? "value-active" : "")}
               onClick={() => handleClick(value.id)}
             >
@@ -86,7 +87,10 @@ const Values = () => {
         </div>
         <div className="values-detail-container">
           {values.map((value) => (
-            <div className={value.active ? "show-detail" : "hide-detail"}>
+            <div
+              key={value.id}
+              className={value.active ? "show-detail" : "hide-detail"}
+            >
               <p>
                 <strong> {value.title}:</strong>
                 {value.detail}
