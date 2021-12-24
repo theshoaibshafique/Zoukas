@@ -1,6 +1,6 @@
 .profile-middle {
   padding: 0px 200px;
-  margin-top: 140px;
+  margin-top: 170px;
   font-family: "Open Sans", sans-serif !important;
 }
 .profile-middle-left {
@@ -10,10 +10,7 @@
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
-}
-
-.description-container {
-  max-height: 288px;
+  height: max-content;
 }
 
 .description-title {
@@ -61,11 +58,31 @@
 }
 
 .leftImg {
-  margin-top: 200px;
-  margin-bottom: 250px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .leftImg img {
   width: 100%;
   contain: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .left-mbl {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-middle {
+    padding: 0px 20px;
+    margin-top: 20px;
+  }
+
+  .left-desk {
+    display: none;
+  }
+  .jobs {
+    display: none;
+  }
 }

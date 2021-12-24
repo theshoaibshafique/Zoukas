@@ -10,10 +10,193 @@
   width: 100%;
   contain: cover;
 }
-
+.paper {
+  padding: 20px;
+  height: 100%;
+}
 .profile-details {
   position: relative;
   z-index: 1;
-  top: 120px;
+  top: 150px;
   padding: 0px 200px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 36px;
+}
+.designation {
+  font-size: 18px;
+  color: var(--metal);
+}
+.tagline {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--metal);
+}
+
+.profile-details-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.upper-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.tagCard {
+  background: blue;
+  color: white;
+  padding: 5px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.bookmark {
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.business-name {
+  text-decoration: underline;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile-details-lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.address-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.address {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: var(--metal);
+}
+.distance {
+  font-weight: 600;
+  font-size: 14px;
+  color: #3bc171;
+}
+
+.messagebtn button {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: var(--primary-color-2);
+  color: #fff;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.tagCard-mbl {
+  display: none;
+}
+.bookmark-mbl {
+  display: none;
+}
+.divider1 {
+  display: none;
+}
+.bgImg-mbl {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-details {
+    padding: 40px 20px 0px;
+    top: 0;
+  }
+  .bgImg-mbl {
+    display: flex;
+  }
+  .bgImg-desk {
+    display: none;
+  }
+  .paper {
+    padding: 10px;
+  }
+  .profile-details-upper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upper-right {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .tagCard-mbl {
+    display: flex;
+    background: blue;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-top: 20px;
+  }
+  .profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bookmark-mbl {
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    left: -80px;
+    top: 10px;
+    width: fit-content;
+  }
+  .divider1 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .tag {
+    display: none;
+  }
+  .profile-details-lower {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .messagebtn button {
+    width: 100%;
+    padding: 10px 120px;
+  }
 }

@@ -7,9 +7,7 @@ const Portfolio = () => {
       <Paper
         elevation={5}
         style={{
-          maxHeight: "808px",
           padding: "20px",
-          minHeight: "808px",
         }}
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
