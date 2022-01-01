@@ -1,6 +1,7 @@
 import { Divider, Grid, Paper } from "@mui/material";
 import React from "react";
 import Portfolio from "../portfolio/Portfolio";
+import Reviews from "../Reviews/Reviews";
 import Services from "../services/Services";
 import ProfileLeft from "./ProfileLeft";
 import "./profileMiddle.css";
@@ -64,6 +65,9 @@ const ProfileMiddle = () => {
               <Portfolio />
             </Grid>
           </Grid>
+        </Grid>
+        <Grid item xs={12}>
+          <Reviews />
         </Grid>
       </Grid>
     </div>

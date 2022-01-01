@@ -10,10 +10,20 @@ const Portfolio = () => {
           padding: "20px",
         }}
       >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
-        officiis alias impedit doloribus labore officia, delectus temporibus
-        dolorem aperiam deleniti beatae laboriosam modi esse tempore autem, et
-        itaque, natus quibusdam?
+        <div className="services-title-container">
+          <p className="services-title">Portfolio</p>
+          <p className="services-subtitle">
+            62 projects <span>performed by Business name</span>
+          </p>
+        </div>
+        <div className="portfolio-cards-container">
+          {[1, 2, 3, 4, 5, 6].map((i) => (
+            <div className="portfolio-card">
+              <img src="./images/portfolio-1.svg" alt="" />
+            </div>
+          ))}
+        </div>
+        <div className="load-more">Load More</div>
       </Paper>
     </div>
   );

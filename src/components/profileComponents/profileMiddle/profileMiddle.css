@@ -10,7 +10,7 @@
   padding: 40px 30px;
   display: flex;
   flex-direction: column;
-  height: max-content;
+  height: 95%;
 }
 
 .description-title {
