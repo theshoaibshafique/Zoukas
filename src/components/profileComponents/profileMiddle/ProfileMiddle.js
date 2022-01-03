@@ -1,4 +1,4 @@
-import { Divider, Grid, Paper } from "@mui/material";
+import { Grid, Paper } from "@mui/material";
 import React from "react";
 import Portfolio from "../portfolio/Portfolio";
 import Reviews from "../Reviews/Reviews";

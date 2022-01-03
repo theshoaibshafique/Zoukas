@@ -1,7 +1,7 @@
 import React from "react";
 import "./Reviews.css";
 import { Paper, Avatar, Divider } from "@mui/material";
-import ProfileAvatar from "../avatar/ProfileAvatar";
+
 const Reviews = () => {
   return (
     <div>
