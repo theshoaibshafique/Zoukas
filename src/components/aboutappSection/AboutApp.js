@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "../carousel/Slider";
 
 import "./AboutApp.css";
 
@@ -30,8 +31,8 @@ const AboutApp = () => {
         <img src="./images/about-app-banner.svg" alt="" />
       </div>
       <div className="features">
-        {features.map((item) => (
-          <div className="feature">
+        {features.map((item, i) => (
+          <div key={i} className="feature">
             <div className="feature-image">
               <img src={item.image} alt="" />
             </div>
@@ -44,7 +45,8 @@ const AboutApp = () => {
         Want a sneak preview into Zouks App?
       </div>
       <div className="about-app-carasoul">
-        <img src="./images/aboutapp-4.svg" alt="" />
+        {/* <img src="./images/aboutapp-4.svg" alt="" /> */}
+        <Slider />
       </div>
     </div>
   );

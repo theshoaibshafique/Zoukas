@@ -38,6 +38,9 @@
   color: var(--primary-color-1);
   margin-bottom: 60px;
 }
+.about-app-carasoul {
+  width: 100%;
+}
 
 @media only screen and (max-width: 768px) {
   .about-app {
@@ -50,10 +53,10 @@
     width: 100%;
     contain: cover;
   }
-  .about-app-carasoul img {
+  /* .about-app-carasoul img {
     width: 100%;
     contain: cover;
-  }
+  } */
   .features {
     display: flex;
     flex-direction: column;
@@ -68,5 +71,15 @@
     font-weight: bold;
     margin-bottom: 30px;
     text-align: center;
+  }
+  .feature-title {
+    font-size: 18px;
+
+    margin-bottom: 10px;
+  }
+  .feature-detail {
+    font-size: 10px;
+
+    margin-bottom: 10px;
   }
 }

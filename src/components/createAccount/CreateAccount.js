@@ -5,6 +5,11 @@ const CreateAccount = () => {
     <div className="create-account-container">
       <div className="create-account">
         <img src="./images/accountbg.svg" className="bg-img" alt="" />
+        <img
+          src="./images/accountbg-mobile.svg"
+          className="bg-img-mbl"
+          alt=""
+        />
         <div className="account-logo-container">
           <p className="corner-text">
             3 For Free <br /> Connections

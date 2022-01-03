@@ -1,0 +1,88 @@
+.profile-middle {
+  padding: 0px 200px;
+  margin-top: 170px;
+  font-family: "Open Sans", sans-serif !important;
+}
+.profile-middle-left {
+  border-radius: 5px;
+  background: rgba(0, 35, 102, 1);
+  color: #fff;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+}
+
+.description-title {
+  font-size: 36px;
+  color: var(--dark-gray);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: var(--metal);
+}
+
+.jobs {
+  margin-bottom: 30px;
+}
+
+.total-jobs-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.total-jobs-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.languages {
+  margin-bottom: 30px;
+}
+.tools {
+  margin-bottom: 30px;
+}
+.left-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.left-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.working-hours {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftImg {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.leftImg img {
+  width: 100%;
+  contain: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .left-mbl {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-middle {
+    padding: 0px 20px;
+    margin-top: 20px;
+  }
+
+  .left-desk {
+    display: none;
+  }
+  .jobs {
+    display: none;
+  }
+}
